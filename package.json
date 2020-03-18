@@ -10,5 +10,8 @@
   "license": "ISC",
   "devDependencies": {
     "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "normalize.css": "^8.0.1"
   }
 }
