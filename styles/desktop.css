@@ -1,0 +1,323 @@
+
+.desktop-only {
+    display: block;
+}
+
+.mobile-only {
+    display: none;
+}
+
+/* 1 - TOP BAR BLACK */
+
+.top-black-bar {
+    margin: 0;
+    padding: 0.5vh 5vw;
+    background-color: var(--black-color);
+    color: white;
+    /*  outline: 2px solid red; */
+}
+
+.top-black-bar  .top-black-bar__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-black-bar .top-black-bar__container .top-black-bar__country {
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+    /* outline: 2px solid red; */
+}
+
+.top-black-bar .top-black-bar__container .top-black__nav {
+    display: flex;
+    justify-content: space-around;
+    width: 50vw;
+    /* outline: 2px solid red; */
+}
+
+.top-black-bar .top-black__nav ul li {
+    list-style-type: none;
+}
+
+.top-black-bar .top-black__nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5vw;
+    /* outline: 2px solid red; */
+}
+
+
+/* 2 - TOP BAR WHITE */
+
+.top-white-bar {
+    margin: 0;
+    padding: 2vh 5vw;
+    display: flex;
+    align-items: center;
+}
+
+.top-white-bar .search {
+    color: var(--secondary-text-color);
+}
+
+.top-white-bar .top-white-bar__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-white-bar .top-white-bar__nav ul li {
+    list-style-type: none;
+}
+
+.top-white-bar .top-white-bar__nav ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 0 1.5vw;
+}
+
+/* 3 - SHOWCASE */
+
+.showcase {
+    display: flex;
+    height: auto;
+    padding-bottom: 0;
+}
+
+.showcase .showcase__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 1vw;
+}
+
+.showcase .showcase__text .showcase__text__discount {
+    font-size: 40px;
+}
+
+.showcase .showcase__text h1 {
+    font-size: 80px;
+}
+
+/* 4 - SHOP BY CATEGORY */
+
+.category h2 {
+    font-size: 30px;
+}
+
+.category .category-boxes {
+    display: flex;
+    /* outline: 1px solid orangered; */
+}
+
+.category .category-boxes .category-boxes__box {
+    margin: 1vh 0vw;
+    min-height: 15vh;
+    height: 20vh;
+    width: 80vw;
+    /* outline: 1px solid blueviolet; */
+}
+
+.category-boxes__box__text h3 {
+    font-size: 30px;
+}
+
+.category-boxes__box__text p {
+    font-size: 20px;
+}
+
+
+
+/* 5 - LATEST PRODUCTS */
+ 
+.latest .latest__top-bar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.latest .latest__product {
+    display: inline-block;
+    width: 30vw;
+    text-align: center;
+}
+
+/* 6 - BEST PRODUCTS */
+
+.best-products {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50vh;
+    padding-top: 20vh;
+    padding-bottom: 0;
+    /* outline: 2px solid lime; */
+}
+
+.best-products .best-products__main h2 {
+    font-size: 40px;
+}
+
+.best-products .best-products__main .button-black {
+    margin-top: 5vh;
+    margin-bottom: 15vw;
+    /* outline: 2px solid lime; */
+}
+
+.best-products img {
+    align-self: flex-end;
+    /* outline: 2px solid blueviolet; */
+}
+
+.best-products .photo-right {
+    padding-bottom: 5vh;
+}
+
+
+/* 7 - MONTH COLLECTION */
+
+.month-collection {
+    display: flex;
+    padding: 0 12vw 5vh 12vw;
+}
+
+.month-collection .month-collection__main {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 55vh;
+    padding: 2vh 2vw;
+    /* outline: 2px solid red; */
+}
+
+.month-collection .month-collection__main .button-blue {
+    margin: 3vh 0;
+}
+
+.month-collection .month-collection__main .month-collection__chosen-product {
+    padding-top: 7vh;
+    /* outline: 2px solid red; */
+}
+
+.month-collection .month-collection__main-photo {
+    margin: 0 auto;
+    width: 30vw;
+    padding: 0 20px;
+    /* outline: 2px solid green; */
+}
+
+.month-collection .month-collection__main-photo img {
+    margin: 0 auto;
+    /* outline: 2px solid red; */
+}
+
+
+.month-collection .month-collection__products-all {
+    width: 25vw;
+    height: 45vh;
+    align-self: flex-end; 
+    /* outline: 2px solid blueviolet; */
+}
+
+.month-collection .month-collection__products-all .month-collection__product p {
+    font-size: 17px;
+    margin: 0;
+    padding: 2vh 2vw;
+    width: 100px;
+    height: 45px;
+    margin: 10px 15px 0 0;
+    /* outline: 1px solid blue; */
+}
+
+.month-collection .month-collection__products-all .month-collection__product img {
+    padding: 2vh 2vw;
+    width: auto;
+    height: 110px;
+    /* outline: 1px solid brown; */
+ }
+
+/* 8 - SUBSCRIPTION */
+
+.subscription {
+    background-image: url(/img/collection/latest-offer.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+
+.subscription img {
+    width: 30vw;
+    /* outline: 1px solid brown; */
+    align-self: flex-start;
+}
+
+.subscription .subscription__main {
+    margin-top: 5vh;
+    width: 20vw;
+    position: absolute;
+    left: 25vw;
+    /* outline: 1px solid blueviolet; */
+}
+
+.subscription .subscription__email-button {
+    margin-top: 5vh;
+    padding-top: 5vh;
+    width: 40vw;
+    position: absolute;
+    right: 8vw;
+    /* outline: 1px solid green; */
+}
+
+.subscription .subscription__email-button input {
+    width: 26vw;
+    /* outline: 1px solid blue; */
+}
+
+.subscription .subscription__email-button button {
+    /* outline: 1px solid red; */
+}
+
+
+/* 9 - INFO BOXES */
+
+.info-boxes {
+    display: flex;
+    justify-content: center;
+    padding: 10vh 5vw 8vh 5vw;
+}
+
+.info-boxes .info-boxes__box {
+    flex: 1;
+    padding: 2vh 2vw;
+}
+
+/* 10 - GALLERY */
+
+.gallery img {
+    width: 20%;
+    margin: 0;
+}
+
+/* 11 - BOTTOM NAVIGATION */
+
+.bottom-navigation {
+    display: flex;
+}
+
+.bottom-navigation .bottom-navigation__part {
+    flex: 1;
+}
+
+.bottom-navigation .bottom-navigation__info {
+    padding: 3vh 2vw;
+}
+
+/* 12 - FOOTER */
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}

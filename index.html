@@ -4,10 +4,480 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/node_modules/normalize.css/normalize.css">
+
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/tablet.css" media="only screen and (min-width: 768px) and (max-width: 1199px)">
+    <link rel="stylesheet" href="styles/desktop.css" media="only screen and (min-width: 1200px)">
+   
+    <link href="https://fonts.googleapis.com/css?family=Cantata+One|Quicksand|Yellowtail&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/999a5265b2.js" crossorigin="anonymous"></script>
+
     <title>Fashion Splash!</title>
 </head>
 <body>
+
+    <!-- 1 - TOP BAR BLACK -->
+
+    <section class="top-black-bar desktop-only">
+
+        <div class="top-black-bar__container">
+
+        <div class="top-black-bar__country">
+            <img src="/img/icon/header_icon.png" alt="united states flag">
+            <p>USA</p>
+            <p>+777 2345 7886</p>
+        </div>
+
+        <nav class="top-black__nav">
+            <ul>
+                <li>
+                    <a href="">My Account</a>
+                    <a href="">Wish List</a>
+                    <a href="">Shopping</a>
+                    <a href="">Cart</a>
+                    <a href="">Checkout</a>
+                </li>
+            </ul>
+        </nav>
+    
+        </div>
+
+    </section>
+
+    <!-- 2 - TOP BAR WHITE -->
+
+    <section class="top-white-bar">
+
+        <div class="logo">
+            <img src="/img/logo/logo.png" alt="estore-logo">
+        </div>
+
+        <nav class="top-white-bar__nav desktop-only">
+            <ul>
+                <li>
+                    <a href="">Home</a>
+                    <a href="">Catagori</a>
+                    <a href="">Latest</a>
+                    <a href="">Blog</a>
+                    <a href="">Pages</a>
+                    <a href="">Contact</a>
+                </li>
+            </ul>
+        </nav>
+
+        <p class="search desktop-only">Search Products</p>
+
+        <div class="search-icon desktop-only"><i class="fas fa-search"></i></div>  
+
+        <div class="wish-list desktop-only"><i class="far fa-heart"></i></div>
+
+        <div class="cart"><i class="fas fa-shopping-cart"></i></div>
+
+        <button class="button-blue desktop-only">Sign In</button>
+
+        <div class="bars-menu tablet-only mobile-only"><i class="fas fa-bars"></i></div>
+        
+    </section>
+
+    <!-- 3 - SHOWCASE -->
+
+    <section class="showcase">
+
+        <img src="/img/hero/hero_man.png" class="desktop-only tablet-only" alt="suprised girl in winter hat">
+
+        <div class="showcase__text">
+
+            <p class="showcase__text__discount">60% Discount</p>
+
+            <h1>Winter Collection</h1>
+
+            <p class="showcase__text__collection">Best Cloth Collection By 2020!</p>
+
+            <button class="button-blue">Shop Now</button>
+
+        </div>
+
+    </section>
+
+    <!-- 4 - SHOP BY CATEGORY -->
+
+        <section class="category">
+
+            <h2>Shop by Category</h2>
+
+            <div class="category-boxes">
+
+                <div class="category-boxes__box box-1">
+
+                    <div class="category-boxes__box__text">
+                        <h3>Owmen's</h3>
+                        <button class="button-yellow ">Best New Deals</button>
+                        <p class="category-boxes__box__blue-text decorative-text">New Collection</p>
+                    </div>
+
+                </div>
+
+                <div class="category-boxes__box box-2">
+
+                    <div class="category-boxes__box__text">
+                        <p class="category-boxes__box__blue-text decorative-text"> Discount! </p>
+                        <h3>Winter Cloth</h3>
+                        <p>New Collection</p>
+                    </div>
+
+                </div>
+
+                <div class="category-boxes__box box-3">
+
+                    <div class="category-boxes__box__text">
+                        <h3>Owmen's</h3>
+                        <button class="button-yellow">Best New Deals</button>
+                        <p class="category-boxes__box__blue-text decorative-text ">New Collection</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    <!-- 5 - LATEST PRODUCTS -->
+
+    <section class="latest">
+
+        <div class="latest__top-bar">
+
+            <h2>Latest Products</h2>
+
+            <ul>
+                <li><a href="#">All</a></li>
+                <li><a href="#">New</a></li>
+                <li><a href="#">Featured</a></li>
+                <li><a href="#">Offer</a></li>
+            </ul>            
+
+        </div>
+
+        <div class="latest__all">
+
+            <div class="latest__product">
+
+                <img src="/img/categori/product1.png" alt="shorts">
+
+                <div class="latest__product__info">
+
+                    <p class="latest__product__info__rating"> ★★★☆☆ </p>
+                    <p class="latest__product__info__name">Green Dress with Details</p>
+                    <p class="latest__product__info__price"> $40.00 
+                    <span class="price__before"> $60.00 </span> 
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="latest__product">
+
+                <img src="/img/categori/product2.png" alt="green sweatshirt">
+
+                <div class="latest__product__info">
+
+                    <p class="latest__product__info__rating"> ★★★☆☆ </p>
+                    <p class="latest__product__info__name">Green Dress with Details</p>
+                    <p class="latest__product__info__price"> $40.00 
+                    <span class="price__before"> $60.00 </span> 
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="latest__product">
+
+                <img src="/img/categori/product3.png" alt="yellow jumper">
+
+                <div class="latest__product__info">
+
+                    <p class="latest__product__info__rating"> ★★★☆☆ </p>
+                    <p class="latest__product__info__name">Green Dress with Details</p>
+                    <p class="latest__product__info__price"> $40.00 
+                    <span class="price__before"> $60.00 </span> 
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="latest__product">
+
+                <img src="/img/categori/product4.png" alt="seagreen jumper">
+
+                <div class="latest__product__info">
+
+                    <p class="latest__product__info__rating"> ★★★☆☆ </p>
+                    <p class="latest__product__info__name">Green Dress with Details</p>
+                    <p class="latest__product__info__price"> $40.00 
+                    <span class="price__before"> $60.00 </span> 
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="latest__product">
+
+                <img src="/img/categori/product5.png" alt="tracksuit bottoms">
+
+                <div class="latest__product__info">
+
+                    <p class="latest__product__info__rating"> ★★★☆☆ </p>
+                    <p class="latest__product__info__name">Green Dress with Details</p>
+                    <p class="latest__product__info__price"> $40.00 
+                    <span class="price__before"> $60.00 </span> 
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="latest__product">
+
+                <img src="/img/categori/product6.png" alt="jeans blazer">
+
+                <div class="latest__product__info">
+
+                    <p class="latest__product__info__rating"> ★★★☆☆ </p>
+                    <p class="latest__product__info__name">Green Dress with Details</p>
+                    <p class="latest__product__info__price"> $40.00 
+                    <span class="price__before"> $60.00 </span> 
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 6 - BEST PRODUCTS -->
+
+    <section class="best-products">
+
+            <img src="/img/categori/card-man.png" class="photo-left desktop-only" alt="man in summer clothes">
+            
+            <div class="best-products__main">
+
+                <h2>Find The Best Product <br /> from Our Shop</h2>
+
+                <p>Designers who are interesten creating state ofthe.</p>
+
+                <button class="button-black">Shop Now</button>
+            
+            </div>
+
+            <img src="/img/categori/card-shape.png" class="photo-right desktop-only tablet-only" alt="polo T-shirts">
+
+    </section>
+
+    <!-- 7 - MONTH COLLECTION -->
+
+    <section class="month-collection">
+
+        <div class="month-collection__main">
+
+            <h2>Best Collection <br /> of This Month</h2>
+
+            <p>Designers who are interesten crea.</p>
+
+            <button class="button-blue">Shop Now</button>
+
+
+            <div class="month-collection__chosen-product">
+
+                <img src="/img/collection/collection1.png" class="desktop-only tablet-only" alt="man's jeans">
+
+            </div>
+        
+        </div>
+
+        <div class="month-collection__main-photo">
+
+            <img src="/img/collection/collection2.png" class="desktop-only" alt="male model standing">
+
+        </div>
+
+        <div class="month-collection__products-all">
+
+            <div class="month-collection__product">
+
+                <p class="month-collection__product__name">Menz Best <br /> T-shirts</p>
+                <img src="/img/collection/collection3.png" alt="yellow T-shirt">
+
+            </div>
+
+            <div class="month-collection__product">
+
+                <p class="month-collection__product__name">Menz Nice <br /> Jeans</p>
+                <img src="/img/collection/collection4.png" alt="man's jeans">
+
+            </div>
+
+            <div class="month-collection__product">
+
+                <p class="month-collection__product__name">Menz Winter <br /> Jacket</p>
+                <img src="/img/collection/collection5.png" alt="sporty jacket">
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- 8 - SUBSCRIPTION -->
+
+    <section class="subscription">
+
+        <img src="/img/collection/latest-man.png" class="desktop-only" alt="sitting male model">
+
+        <div class="subscription__main">
+
+            <h2>Get Our <br /> Latest Offers News</h2>
+
+            <p>Subscribe to the newsletter</p>
+
+        </div>
+
+        <div class="subscription__email-button">
+
+            <input type="mail" placeholder="Your email here">
+
+            <button class="button-blue">Subscribe</button>
+
+        </div>
+
+    </section>
+
+    <!-- 9 - INFO BOXES -->
+
+    <section class="info-boxes">
+
+        <div class="info-boxes__box">
+
+            <i class="fas fa-cube"></i>
+
+            <p class="box-category">Free Shipping Method</p>
+
+            <p class="box-text">Repellat magnam expedita delectus esse impedit, cum iure ut odio at eum laud.</p>
+
+        </div>
+
+        <div class="info-boxes__box">
+
+            <i class="fas fa-unlock-alt"></i>
+
+            <p class="box-category">Free Shipping Method</p>
+
+            <p class="box-text">Repellat magnam expedita delectus esse impedit, cum iure ut odio at eum laud.</p>
+
+        </div>
+
+        <div class="info-boxes__box">
+
+            <i class="fas fa-sync"></i>
+
+            <p class="box-category">Free Shipping Method</p>
+
+            <p class="box-text">Repellat magnam expedita delectus esse impedit, cum iure ut odio at eum laud.</p>
+
+        </div>
+
+    </section>
+
+    <!-- 10 - GALLERY -->
+
+    <section class="gallery">
+
+        <img src="/img/gallery/gallery1.jpg" alt="man in yellow jacket">
+        <img src="/img/gallery/gallery2.jpg" alt="man in pink long-sleeve">
+        <img src="/img/gallery/gallery3.jpg" alt="woman in black t-shirt">
+        <img src="/img/gallery/gallery4.jpg" alt="woman in overalls">
+        <img src="/img/gallery/gallery5.jpg" alt="man in jeans jacket">
+
+    </section>
+
+    <!-- 11 - BOTTOM NAVIGATION -->
+
+    <section class="bottom-navigation">
+
+        <div class="bottom-navigation__part bottom-navigation__info">
+
+            <div class="logo">
+
+                <img src="/img/logo/logo.png" alt="logo">
+
+            </div>
+
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum nesciunt animi quo iste, eligendi nobis </p>
+
+        </div>
+
+        <div class="bottom-navigation__part bottom-navigation__quick-links">
+
+           <ul>
+               <li class="category">Quick Links</li>
+               <li>About</li>
+               <li>Offers & Discounts</li>
+               <li>Get Coupon</li>
+               <li>Contact Us</li>
+           </ul>
+            
+        </div>
+
+        <div class="bottom-navigation__part bottom-navigation__new-products">
+
+            <ul>
+                <li class="category">New Products</li>
+                <li>Woman Cloth</li>
+                <li>Fashion Accessories</li>
+                <li>Man Accessories</li>
+                <li>Rubber Made Toys</li>
+            </ul>
+            
+        </div>
+
+        <div class="bottom-navigation__part bottom-navigation__support">
+
+            <ul>
+                <li class="category">Support</li>
+                <li>Frequently Asked Questions</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policy</li>
+                <li>GDPR</li>
+                <li>Report a Payment Issue</li>
+            </ul>
+            
+        </div>
+
+    </section>
+
+    <!-- 12 - FOOTER -->
+
+    <footer class="footer">
+
+        <p>Copyright &copy2020 All rights reserved | Marzena</p>
+
+        <div class="footer__social-media-icons">
+
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-behance"></i>
+            <i class="fas fa-globe"></i>
+
+        </div>
+
+    </footer>
     
 </body>
 </html>
