@@ -1,5 +1,7 @@
 # Fashion Splash!
 
+Click to see the result: https://marzena-maria.github.io/fashion-splash/ 
+
 ## Installation
 
 Run `npm install`
